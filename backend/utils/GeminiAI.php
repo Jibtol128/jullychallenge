@@ -27,7 +27,7 @@ class GeminiAI {
         error_log('GeminiAI::processTask started for input: ' . substr($rawInput, 0, 100) . '...');
         
         // Check if API key is valid
-        if (!$this->apiKey || $this->apiKey === 'AIzaSyB0pdOpBmIHIZ7XFShUT0YuQiQwXTHixwo') {
+        if (!$this->apiKey || $this->apiKey === 'GEMINI API KEY HERE') {
             throw new Exception('Invalid or missing Gemini API key');
         }
         
