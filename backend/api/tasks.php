@@ -394,7 +394,7 @@ function handleGeminiProcess() {
 // Example Gemini API call function (replace with real implementation)
 function callGeminiAPI($rawInput, $userDuration = null) {
     // Updated Gemini API endpoint with correct model name
-    $apiKey = 'AIzaSyB0ilX9JkfH_iI-FplSuxh-LKRQ7MV6OJU';
+    $apiKey = 'GEMINI API KEY HERE';
     $url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=' . $apiKey;
 
     // Enhanced prompt for better task analysis
